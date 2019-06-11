@@ -36,7 +36,6 @@ let raiod = 6;
 // IMAGENS.
 function preload(){
   imgTela01 = loadImage('tela01.png');
-  imgTela02 = loadImage('tela02.png');
   imgTela03 = loadImage('tela03.png');
   imgTela04 = loadImage('tela04.png');
   imgLinux = loadImage('linux02.png');
