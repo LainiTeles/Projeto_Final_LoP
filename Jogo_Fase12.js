@@ -6,11 +6,11 @@ let y3 = 20;
 let x = 200;
   
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(550, 550);
 }
 
 function draw() {
-  background(0, 178, 238);
+  background(34, 139, 34);
   
   if(keyIsDown(LEFT_ARROW)){
     x = x - 8;
@@ -31,12 +31,12 @@ function draw() {
   y2 = y2 + 5;
   y3 = y3 + 5;
   
-  if(y1 > 400)
+  if(y1 > 550)
     y1 = 0;
   
-  if(y2 > 400)
+  if(y2 > 550)
     y2 = 0;
   
-  if(y3 > 400)
+  if(y3 > 550)
     y3 = 0;
 }
