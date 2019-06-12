@@ -1,11 +1,5 @@
-/*
-
-  Equipe:
-  Laini Teles Silva Melo - Subturma 1D.
-  Etapa 1 e 2.
-
-*/
-
+//Laini Teles Silva Melo - Subturma 1D.
+  
 let y1 = 120; 
 let y2 = 250; 
 let y3 = 20;
@@ -30,7 +24,6 @@ function draw() {
   fill(255, 130, 171);
   ellipse(x, y, 50, 50);
   
-  
   if(keyIsDown(32) && estadoDisparo == false){
     xd = x;
     yd = y;
@@ -44,7 +37,6 @@ function draw() {
       estadoDisparo = false;
     }
   }
-  
   
   fill(255);
   rect(190, y1, 50, 50, 5);
