@@ -1,10 +1,4 @@
-/*
-
-  Equipe:
-  Laini Teles Silva Melo - Subturma 1D.
-  Etapa 1 e 2.
-
-*/
+//Laini Teles Silva Melo - Subturma 1D.
 
 let y1 = 120;
 let y2 = 250;
